@@ -1,0 +1,23 @@
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de entorno
+.env
+.env.local
+
+# Ignorar archivos de IDE
+.vscode/
+.idea/
+
+# Ignorar archivos de dependencias
+node_modules/
+package-lock.json
+
+# Ignorar archivos de construcciÃ³n
+dist/
+build/
+
+# Ignorar archivos temporales
+*.tmp
+*.temp
