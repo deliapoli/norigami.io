@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Norigami × el TORO - Sushi & Barra, Cocina Japonesa y Mexicana en Zapopan">
+    <meta name="theme-color" content="#c41e3a">
+    
+    <!-- Favicon (agrega tu archivo favicon.ico en la misma carpeta) -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Apple Touch Icon (para iPhone/iPad) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    
+    <title>Norigami × el TORO | Menú Completo</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section con Logo -->
+        <div class="hero">
+            <div class="hero-content">
+                <!-- LOGO: Reemplaza src con tu archivo de logo (ej: logo.png, logo.svg) -->
+                <!-- Puedes usar SVG, PNG o JPG. Recomendado: 300x300px mínimo -->
+                <img src="logo.png" alt="Norigami Logo" class="logo" onerror="this.style.display='none'; document.querySelector('.logo-placeholder').style.display='block';">
+                <div class="logo-placeholder" style="display:none; font-size: 3rem; margin-bottom: 15px;">🍣</div>
+                
+                <h1>NORIGAMI × el TORO</h1>
+                <p class="tagline">Sushi & Barra | Cocina JAPONESA y MEXICANA</p>
+                <div class="anniversary">🎉 10 Años Gracias a Ti</div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#entradas">Entradas</a></li>
+                <li><a href="#sushis">Sushis</a></li>
+                <li><a href="#yakimeshi">Yakimeshi</a></li>
+                <li><a href="#camarones">Camarones</a></li>
+                <li><a href="#hamburguesas">Hamburguesas</a></li>
+                <li><a href="#combos">Combos</a></li>
+                <li><a href="#tortas">el TORO</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <!-- Entradas Section -->
+        <section id="entradas" class="menu-section">
+            <img src="entradas.jpg" alt="Entradas" class="category-image" onerror="this.style.display='none'">
+            
+            <h2>🥟 Entradas</h2>
+            
+            <div class="menu-item">
+                <div class="menu-item-image img-placeholder">
+                    <img src="papas.jpg" alt="Papas" onerror="this.parentElement.innerHTML='🍟'">
+                </div>
+                <div class="menu-item-content">
+                    <div class="name">Papas a la Francesa <span class="price">$59</span></div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image img-placeholder">
+                    <img src="edamames.jpg" alt="Edamames" onerror="this.parentElement.innerHTML='🫘'">
+                </div>
+                <div class="menu-item-content">
+                    <div class="name">Edamames <span class="price">$69</span></div>
+                    <div class="description">Delicioso antioxidante natural. Frijolitos en vaina hervidos y preparados con sal y limón.</div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image img-placeholder">
+                    <img src="gyoza.jpg" alt="Gyoza" onerror="this.parentElement.innerHTML='🥟'">
+                </div>
+                <div class="menu-item-content">
+                    <div class="name">Gyoza (6 pzas) <span class="price">$99</span></div>
+                    <div class="description">Empanaditas japonesas rellenas de carne de cerdo y vegetales, selladas a la plancha.</div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image img-placeholder">
+                    <img src="karaage.jpg" alt="Karaage" onerror="this.parentElement.innerHTML='🍗'">
+                </div>
+                <div class="menu-item-content">
+                    <div class="name">Karaage (6 pzas) <span class="price">$109</span></div>
+                    <div class="description">Pollo marinado en salsa de soya, jengibre y ajo, empanizado y frito al estilo japonés.</div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image img-placeholder">
+                    <img src="takoyaki.jpg" alt="Takoyaki" onerror="this.parentElement.innerHTML='🐙'">
+                </div>
+                <div class="menu-item-content">
+                    <div class="name">Takoyaki (6 pzas) <span class="price">$119</span></div>
+                    <div class="description">Bolitas de masa rellenas de pulpo, cocidas en molde especial, bañadas en salsa takoyaki y mayonesa japonesa.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sushis Section -->
+        <section id="sushis" class="menu-section">
+            <img src="sushis.jpg" alt="Sushis" class="category-image" onerror="this.style.display='none'">
+            
+            <h2>🍣 Sushis Clásicos</h2>
+            <p style="color: #888; font-size: 0.8rem; margin-bottom: 15px;">Desliza horizontalmente para ver todos los precios →</p>
+            
+            <div class="sushi-grid">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tipo</th>
+                            <th>🦐</th>
+                            <th>🐟</th>
+                            <th>🐟</th>
+                            <th>🦀</th>
+                            <th>🥩</th>
+                            <th>🍗</th>
+                            <th>🥬</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Empanizado</td>
+                            <td class="price">$109</td>
+                            <td class="price">$109</td>
+                            <td class="price">$109</td>
+                            <td class="price">$109</td>
+                            <td class="price">$109</td>
+                            <td class="price">$109</td>
+                            <td class="price">$99</td>
+                        </tr>
+                        <tr>
+                            <td>Dragón Ball</td>
+                            <td class="price">$119</td>
+                            <td class="price">$119</td>
+                            <td class="price">$119</td>
+                            <td class="price">$119</td>
+                            <td class="price">$119</td>
+                            <td class="price">$119</td>
+                            <td class="price">$109</td>
+                        </tr>
+                        <tr>
+                            <td>Philadelphia</td>
+                            <td class="price">$139</td>
+                            <td class="price">$139</td>
+                            <td class="price">$139</td>
+                            <td class="price">$139</td>
+                            <td class="price">$139</td>
+                            <td class="price">$139</td>
+                            <td class="price">$129</td>
+                        </tr>
+                        <tr>
+                            <td>Tempura</td>
+                            <td class="price">$149</td>
+                            <td class="price">$149</td>
+                            <td class="price">$149</td>
+                            <td class="price">$149</td>
+                            <td class="price">$149</td>
+                            <td class="price">$149</td>
+                            <td class="price">$139</td>
+                        </tr>
+                        <tr>
+                            <td>Especial</td>
+                            <td class="price">$159</td>
+                            <td class="price">$159</td>
+                            <td class="price">$159</td>
+                            <td class="price">$159</td>
+                            <td class="price">$159</td>
+                            <td class="price">$159</td>
+                            <td class="price">$149</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="info-box">
+                <h4>🦐🐟🥩🍗🥬 ¿Qué significa cada ícono?</h4>
+                <p><strong>🦐 Camarón</strong> | <strong>🐟 Salmón</strong> | <strong>🐟 Atún</strong> | <strong>🦀 Cangrejo</strong> | <strong>🥩 Res</strong> | <strong>🍗 Pollo</strong> | <strong>🥬 Vegetariano</strong></p>
+            </div>
+        </section>
+
+        <!-- Yakimeshi Section -->
+        <section id="yakimeshi" class="menu-section">
+            <img src="yakimeshi.jpg" alt="Yakimeshi" class="category-image" onerror="this.style.display='none'">
+            
+            <h2>🍚 Yakimeshi</h2>
+            <p class="description">Arroz japonés salteado con vegetales y tu elección de proteína.</p>
+            
+            <div class="menu-item">
+                <div class="menu-item-image img-placeholder">
+                    <img src="yakimeshi-pollo.jpg" alt="Yakimeshi de Pollo" onerror="this.parentElement.innerHTML='🍗'">
+                </div>
+                <div class="menu-item-content">
+                    <div class="name">Yakimeshi de Pollo <span class="price">$139</span></div>
+                    <div class="description">Arroz salteado con pollo, zanahoria, cebolla, chícharo y huevo.</div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image img-placeholder">
+                    <img src="yakimeshi-res.jpg" alt="Yakimeshi de Res" onerror="this.parentElement.innerHTML='🥩'">
+                </div>
+                <div class="menu-item-content">
+                    <div class="name">Yakimeshi de Res <span class="price">$149</span></div>
+                    <div class="description">Arroz salteado con carne de res, pimiento, cebolla y champiñones.</div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image img-placeholder">
+                    <img src="yakimeshi-camaron.jpg" alt="Yakimeshi de Camarón" onerror="this.parentElement.innerHTML='🦐'">
+                </div>
+                <div class="menu-item-content">
+                    <div class="name">Yakimeshi de Camarón <span class="price">$159</span></div>
+                    <div class="description">Arroz salteado con camarones, elote, ejotes y pimiento morrón.</div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image img-placeholder">
+                    <img src="yakimeshi-mixto.jpg" alt="Yakimeshi Mixto" onerror="this.parentElement.innerHTML='🍱'">
+                </div>
+                <div class="menu-item-content">
+                    <div class="name">Yakimeshi Mixto <span class="price">$169</span></div>
+                    <div class="description">Arroz salteado con pollo, res y camarón, con mezcla de vegetales.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Camarones Section -->
+        <section id="camarones" class="menu-section">
+            <img src="camarones.jpg" alt="Camarones" class="category-image" onerror="this.style.display='none'">
+            
+            <h2>🦐 Camarones</h2>
+            
+            <div class="menu-item">
+                <div class="menu-item-image img-placeholder">
+                    <img src="camarones-ajo.jpg" alt="Camarones al Ajo" onerror="this.parentElement.innerHTML='🧄'">
+                </div>
+                <div class="menu-item-content">
+                    <div class="name">Camarones al Ajo <span class="price">$169</span></div>
+                    <div class="description">Camarones salteados con ajo, mantequilla y perejil, servidos con arroz.</div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image img-placeholder">
+                    <img src="camarones-diablo.jpg" alt="Camarones al Diablo" onerror="this.parentElement.innerHTML='🌶️'">
+                </div>
+                <div class="menu-item-content">
+                    <div class="name">Camarones al Diablo <span class="price">$179</span></div>
+                    <div class="description">Camarones en salsa picante de chile de árbol, ajo y especias.</div>
+                    <div class="note">🌶️ Nivel de picante: Medio-Alto</div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image img-placeholder">
+                    <img src="camarones-coco.jpg" alt="Camarones al Coco" onerror="this.parentElement.innerHTML='🥥'">
+                </div>
+                <div class="menu-item-content">
+                    <div class="name">Camarones al Coco <span class="price">$189</span></div>
+                    <div class="description">Camarones empanizados con coco rallado, fritos y bañados en salsa agridulce.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hamburguesas Section -->
+        <section id="hamburguesas" class="menu-section">
+            <img src="hamburguesas.jpg" alt="Hamburguesas" class="category-image" onerror="this.style.display='none'">
+            
+            <h2>🍔 Hamburguesas</h2>
+            <p class="description">Todas incluyen papas a la francesa y bebida de 600ml.</p>
+            
+            <div class="menu-item">
+                <div class="menu-item-image img-placeholder">
+                    <img src="hamburguesa-clasica.jpg" alt="Hamburguesa Clásica" onerror="this.parentElement.innerHTML='🍔'">
+                </div>
+                <div class="menu-item-content">
+                    <div class="name">Hamburguesa Clásica <span class="price">$129</span></div>
+                    <div class="description">Carne de res 150g, queso americano, lechuga, jitomate, cebolla y aderezo especial.</div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image img-placeholder">
+                    <img src="hamburguesa-bbq.jpg" alt="Hamburguesa BBQ" onerror="this.parentElement.innerHTML='🔥'">
+                </div>
+                <div class="menu-item-content">
+                    <div class="name">Hamburguesa BBQ <span class="price">$139</span></div>
+                    <div class="description">Carne de res 150g, queso cheddar, tocino, aros de cebolla y salsa BBQ.</div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image img-placeholder">
+                    <img src="hamburguesa-hawaiana.jpg" alt="Hamburguesa Hawaiana" onerror="this.parentElement.innerHTML='🍍'">
+                </div>
+                <div class="menu-item-content">
+                    <div class="name">Hamburguesa Hawaiana <span class="price">$149</span></div>
+                    <div class="description">Carne de res 150g, jamón, piña, queso manchego y salsa agridulce.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Combos Section -->
+        <section id="combos" class="menu-section">
+            <img src="combos.jpg" alt="Combos" class="category-image" onerror="this.style.display='none'">
+            
+            <h2>🎯 Combos</h2>
+            <p class="description">Paquetes especiales para compartir o disfrutar solo.</p>
+            
+            <div class="combo-box">
+                <h4>Combo Familiar (4 personas)</h4>
+                <ul>
+                    <li>4 rolls de sushi (a elegir)</li>
+                    <li>1 orden de gyoza (6 pzas)</li>
+                    <li>1 orden de karaage (6 pzas)</li>
+                    <li>4 bebidas de 600ml</li>
+                </ul>
+                <div class

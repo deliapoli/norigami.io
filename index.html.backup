@@ -16,6 +16,7 @@
     <title>Norigami × el TORO | Menú Completo</title>
     
     <link rel="stylesheet" href="css/styles.css">
+    <style>
         * {
             margin: 0;
             padding: 0;
@@ -1198,6 +1199,7 @@
                 <div class="contact-item">
                     <div class="icon">🕐</div>
                     <p>Horario</p>
+    </style>
                     <p class="highlight">Lun-Sáb<br>11AM-9PM</p>
                 </div>
                 
