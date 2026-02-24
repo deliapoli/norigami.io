@@ -1,0 +1,34 @@
+{
+  "name": "norigami-menu",
+  "version": "1.0.0",
+  "description": "Menú web profesional para Norigami × el TORO",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "live-server --port=8000",
+    "update-prices": "node update-prices.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "deploy": "echo 'Run: git push origin main'"
+  },
+  "keywords": [
+    "menu",
+    "restaurant",
+    "sushi",
+    "responsive",
+    "github-pages"
+  ],
+  "author": "Norigami × el TORO",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deliapoli/norigami.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deliapoli/norigami.io/issues"
+  },
+  "homepage": "https://deliapoli.github.io/norigami.io",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

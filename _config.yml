@@ -1,0 +1,38 @@
+# Configuración de GitHub Pages para Norigami × el TORO
+
+title: "Norigami × el TORO - Menú Digital"
+description: "Menú web profesional del restaurante Norigami × el TORO, especializado en fusión japonesa-mexicana"
+baseurl: "" # subdirectorio, deja vacío si está en la raíz
+url: "https://deliapoli.github.io" # tu dominio de GitHub Pages
+
+# Configuración del sitio
+theme: null # No usar tema Jekyll, es sitio estático
+plugins: [] # Sin plugins necesarios
+
+# Configuración de SEO
+author: "Norigami × el TORO"
+keywords: "sushi, menú, restaurante, japones, mexicano, zapopan, norigami, el toro"
+
+# Configuración de build
+markdown: kramdown
+highlighter: rouge
+
+# Excluir archivos del build
+exclude:
+  - README.md
+  - LICENSE
+  - _config.yml
+  - .gitignore
+  - INSTRUCCIONES-GITHUB.md
+
+# Incluir estos archivos
+include:
+  - .nojekyll # Para desactivar Jekyll en GitHub Pages
+
+# Configuración por defecto
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: null # No usar layout, es HTML estático
