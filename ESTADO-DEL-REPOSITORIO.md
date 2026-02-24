@@ -22,9 +22,9 @@
 | `INSTRUCCIONES-GITHUB.md` | 2.4KB | Guía de uso |
 
 ### **Carpetas:**
-- `css/` - Hojas de estilo
-- `images/` - (Vacía, para imágenes de platillos)
-- `js/` - (Vacía, para scripts futuros)
+- `css/` - Hojas de estilo (styles.css - 17KB)
+- `images/` - Imágenes del menú (con README y documentación)
+- `js/` - Scripts JavaScript (con README y documentación)
 
 ---
 
